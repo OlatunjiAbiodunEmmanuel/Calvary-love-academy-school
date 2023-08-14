@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div style={{backgroundImage:`url(${bkgrd})`,backgroundRepeat:'no-repeat',height:'80vh',width:'100%'}}>
         <div className='d-flex align-items-center justify-content-between bg-body-tertiary p-2 fixed-top'style={{opacity:'0.5'}}>
-        <a class="navbar-brand ms-5 d-none d-md-inline" href="#" style={{fontWeight:'bold',fontSize:'40px'}}><img src={logo} style={{width:'60px', borderRadius:'50%',marginRight:'5%'}} />CALVARY LOVE ACADEMY</a>
+        <a class="navbar-brand ms-5 d-none d-lg-inline" href="#" style={{fontWeight:'bold',fontSize:'40px'}}><img src={logo} style={{width:'60px', borderRadius:'50%',marginRight:'5%'}} />CALVARY LOVE ACADEMY</a>
 
     <section className='d-none d-md-flex align-items-center justify-content-around pe-5'>
 
