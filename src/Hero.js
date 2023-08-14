@@ -17,7 +17,7 @@ const Hero = () => {
 
     </section>
 
-    <nav class="navbar d-md-none bg-body-tertiary fixed-top">
+    <nav class="navbar d-lg-none bg-body-tertiary fixed-top">
             
             <div class="container">
             <a class="navbar-brand" href="#" style={{fontWeight:'bolder'}}><img src={logo} style={{width:'60px', borderRadius:'50%',marginRight:'5%'}} />CALVARY LOVE ACADEMY</a>
