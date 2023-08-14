@@ -1,19 +1,24 @@
 import React from 'react'
 import logo from './mayowa/logo.jpeg'
-import bkgrd from './mayowa/hero.jpeg'
-
-const Hero = () => {
+import { Link } from 'react-router-dom'
+const Navigation = () => {
+    let linkStyle={
+        textDecoration:'none',
+        color:'black'
+      }
   return (
-    <div style={{backgroundImage:`url(${bkgrd})`,backgroundRepeat:'no-repeat',height:'80vh',width:'100%'}}>
-        <div className='d-flex align-items-center justify-content-between bg-body-tertiary p-2 fixed-top'style={{opacity:'0.5'}}>
-        <a class="navbar-brand ms-5 d-none d-lg-inline" href="#" style={{fontWeight:'bold',fontSize:'40px'}}><img src={logo} style={{width:'60px', borderRadius:'50%',marginRight:'5%'}} />CALVARY LOVE ACADEMY</a>
+    <div>
+
+<div className='d-flex align-items-center justify-content-between bg-body-tertiary p-2 fixed-top'style={{opacity:'0.8'}}>
+        <a class="navbar-brand ms-5 d-none d-lg-inline" href="#" style={{fontWeight:'bold',fontSize:'20px'}}><img src={logo} style={{width:'60px', borderRadius:'50%',marginRight:'5%'}} />CALVARY LOVE ACADEMY</a>
 
     <section className='d-none d-md-flex align-items-center justify-content-around pe-5'>
 
-    <button type="button" class="btn btn-outline-danger me-3">Home</button>
+    <button type="button" class="btn btn-outline-danger me-3"><Link to ='/'style={linkStyle} >Home</Link></button>
     <button type="button" class="btn btn-outline-danger me-3">About</button>
     <button type="button" class="btn btn-outline-danger me-3">Student</button>
     <button type="button" class="btn btn-outline-danger me-3">Contact</button>
+    <button type="button" class="btn btn-outline-danger me-3">Admission Information</button>
 
     </section>
 
@@ -27,13 +32,13 @@ const Hero = () => {
               </button>
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link active" aria-current="page" href="#"><Link to ='/'style={linkStyle} >Home</Link></a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">About</a>
@@ -72,12 +77,8 @@ const Hero = () => {
         </div>
 
 
-
-
-
-
     </div>
   )
 }
 
-export default Hero
+export default Navigation
