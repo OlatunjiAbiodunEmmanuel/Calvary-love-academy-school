@@ -1,6 +1,7 @@
 
 import Navigation from './Navigation';
 import Main from './Main';
+import Footer from './Footer';
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import { Link } from 'react-router-dom'
 import './App.css';
@@ -19,7 +20,7 @@ function App() {
     {/* <Route path='/AMBASSADORS & LEMO CLUB' element={<Ambasado/>}/> */}
     {/* <Route path='*' element={<Error404/>}/> */}
     </Routes>
-      {/* <Footer/> */}
+      <Footer/>
     </BrowserRouter>
     
     </div>

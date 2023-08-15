@@ -69,7 +69,7 @@ const Main = () => {
                 <p class="card-text">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.  Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
 
                 <p class="card-text">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.  Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="#" class="btn btn-outline-danger">About Founder</a>
                 </div>
                 </div>
         
@@ -84,9 +84,16 @@ const Main = () => {
             <h4 style={{textAlign:"center"}}>Owner's name</h4>
             </div>
 
-
         </div>
+        <section style={{  backgroundColor:'#57548d'}}>
+            <h1 style={{textAlign:"center",marginBottom:"8%",color:'white'}}>
+            ADMISSION INFORMATION
+            </h1>
+            <div class="d-grid gap-2 col-3 mx-auto">
+            <button class="btn  rounded-pill p-3 btn-outline-danger text-light mb-5" type="button">Find out more</button>
 
+            </div>
+        </section>
 
 
 
