@@ -45,25 +45,7 @@ const Navigation = () => {
     <nav class="navbar d-lg-none bg-body-tertiary fixed-top">
             
             <div class="container">
-            <a class="navbar-brand" href="#" style={{fontWeight:'bolder'}}><img src={logo} style={{width:'60px', borderRadius:'50%',marginRight:'5%'}} />        <span class="waviy">            
-            <span>C</span>
-            <span>A</span>
-            <span>L</span>
-            <span>V</span>
-            <span>A</span>
-            <span>R</span>
-            <span className='me-2'>Y</span>
-            <span>L</span>
-            <span>O</span>
-            <span>V</span>
-            <span className='me-2'>E</span>
-            <span>A</span>
-            <span>C</span>
-            <span>A</span>    
-            <span>D</span>
-            <span>E</span>
-            <span>M</span>
-            <span>Y</span></span></a>
+            <a class="navbar-brand" href="#" style={{fontWeight:'bolder'}}><img src={logo} style={{width:'60px', borderRadius:'50%',marginRight:'5%'}} />CALVARY LOVE ACADEMY</a>
           
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
